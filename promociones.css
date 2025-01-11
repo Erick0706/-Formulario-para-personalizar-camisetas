@@ -1,0 +1,265 @@
+.exclusive-discounts {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .exclusive-discounts h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .discount-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .discount-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .discount-info {
+    margin-bottom: 20px;
+  }
+  
+  .discount-info h3 {
+    font-size: 2rem;
+    color: #f39c12;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .discount-info p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .discount-description {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .countdown {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 10px;
+  }
+  
+  .discount-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .discount-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .exclusive-btn {
+    font-size: 1.1rem;
+    color: white;
+    background-color: #f39c12;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exclusive-btn:hover {
+    background-color: #e67e22;
+  }
+  .volume-offers {
+    background-color: #f1f1f1;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .volume-offers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .offer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .offer-info {
+    margin-bottom: 20px;
+  }
+  
+  .offer-info h3 {
+    font-size: 2rem;
+    color: #27ae60;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .offer-info p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .volume-tiers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .tier {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .tier-quantity {
+    font-weight: 700;
+    color: #f39c12;
+  }
+  
+  .tier-discount {
+    color: #2ecc71;
+  }
+  
+  .offer-link {
+    font-size: 1.1rem;
+    color: #f39c12;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #f39c12;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .offer-link:hover {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .offer-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .special-collaborations, .t-shirt-contest {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .special-collaborations h2, .t-shirt-contest h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .collaboration-card, .contest-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .collaboration-card:hover, .contest-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .collaboration-info, .contest-info {
+    margin-bottom: 20px;
+  }
+  
+  .collaboration-info h3, .contest-info h3 {
+    font-size: 2rem;
+    color: #f39c12;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .collaboration-info p, .contest-info p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .collaboration-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .collaboration-gallery img, .contest-image img {
+    max-width: 120px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .collaboration-gallery img:hover, .contest-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .collaboration-link, .contest-link {
+    font-size: 1.1rem;
+    color: #f39c12;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #f39c12;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .collaboration-link:hover, .contest-link:hover {
+    background-color: #f39c12;
+    color: white;
+  }
+  

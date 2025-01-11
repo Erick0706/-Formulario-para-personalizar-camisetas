@@ -1,0 +1,51 @@
+{
+    "Inicio": [
+        { "nombre": { "es": "Introducción al servicio", "en": "Service Introduction", "pt": "Introdução ao serviço" }, "link": "inicio.html" },
+        { "nombre": { "es": "Beneficios de personalizar tu camiseta", "en": "Benefits of customizing your t-shirt", "pt": "Benefits of customizing your t-shirt" }, "link": "inicio.html" },
+        { "nombre": { "es": "Instrucciones fáciles de seguir", "en": "Easy-to-follow instructions", "pt": "Instruções fáceis de seguir" }, "link": "inicio.html" },
+        { "nombre": { "es": "Preguntas frecuentes", "en": "Frequently asked questions", "pt": "Perguntas frequentes" }, "link": "inicio.html" }
+    ],
+    "Personalización": [
+    { "nombre": { "es": "Selección de estilo de camiseta", "en": "T-shirt style selection", "pt": "Seleção de estilo de camiseta" }, "link": "personalizacion.html" },
+    { "nombre": { "es": "Subir diseño o elegir plantillas", "en": "Upload design or choose templates", "pt": "Carregar design ou escolher modelos" }, "link": "personalizacion.html" },
+    { "nombre": { "es": "Personalización de colores", "en": "Color customization", "pt": "Personalização de cores" }, "link": "personalizacion.html" },
+    { "nombre": { "es": "Vista previa antes de compra", "en": "Preview before purchase", "pt": "Visualização antes da compra" }, "link": "personalizacion.html" }
+    ],
+    "Tienda": [
+    { "nombre": { "es": "Ofertas de personalización", "en": "Customization offers", "pt": "Ofertas de personalização" }, "link": "tienda.html" },
+    { "nombre": { "es": "Modelos exclusivos", "en": "Exclusive models", "pt": "Modelos exclusivos" }, "link": "tienda.html" },
+    { "nombre": { "es": "Categorías de diseños", "en": "Design categories", "pt": "Categorias de designs" }, "link": "tienda.html" },
+    { "nombre": { "es": "Compra segura", "en": "Secure purchase", "pt": "Compra segura" }, "link": "tienda.html" }
+    ],
+    "Diseñadores": [
+        { "nombre": { "es": "Colaboraciones con diseñadores", "en": "Collaborations with designers", "pt": "Colaborações com designers" }, "link": "disenadores.html" },
+        { "nombre": { "es": "Galería de camisetas populares", "en": "Gallery of popular t-shirts", "pt": "Galeria de camisetas populares" }, "link": "disenadores.html" },
+        { "nombre": { "es": "Diseños recomendados", "en": "Recommended designs", "pt": "Designs recomendados" }, "link": "disenadores.html" },
+        { "nombre": { "es": "Crear tu propio diseño", "en": "Create your own design", "pt": "Crie seu próprio design" }, "link": "disenadores.html" }
+    ],
+    "Galeria": [
+        { "nombre": { "es": "Muestras de camisetas creadas", "en": "Samples of created t-shirts", "pt": "Amostras de camisetas criadas" }, "link": "galeria.html" },
+        { "nombre": { "es": "Galería de usuarios", "en": "User gallery", "pt": "Galeria de usuários" }, "link": "galeria.html" },
+        { "nombre": { "es": "Evaluación de productos", "en": "Product evaluation", "pt": "Avaliação de produtos" }, "link": "galeria.html" },
+        { "nombre": { "es": "Comentarios de clientes", "en": "Customer reviews", "pt": "Comentários de clientes" }, "link": "galeria.html" }
+    ],
+    "Promociones": [
+        { "nombre": { "es": "Descuentos exclusivos", "en": "Exclusive discounts", "pt": "Descontos exclusivos" }, "link": "promociones.html" },
+        { "nombre": { "es": "Ofertas por volumen", "en": "Bulk offers", "pt": "Ofertas por volume" }, "link": "promociones.html" },
+        { "nombre": { "es": "Colaboraciones especiales", "en": "Special collaborations", "pt": "Colaborações especiais" }, "link": "promociones.html" },
+        { "nombre": { "es": "Sorteos para personalizar camisetas", "en": "T-shirt customization giveaways", "pt": "Sorteios para personalizar camisetas" }, "link": "promociones.html" }
+    ],
+    "Preguntas Frecuentes": [
+        { "nombre": { "es": "Cómo personalizar correctamente", "en": "How to properly customize", "pt": "Como personalizar corretamente" }, "link": "faq.html" },
+        { "nombre": { "es": "Políticas de devolución", "en": "Return policies", "pt": "Políticas de devolução" }, "link": "faq.html" },
+        { "nombre": { "es": "Métodos de pago", "en": "Payment methods", "pt": "Métodos de pagamento" }, "link": "faq.html" },
+        { "nombre": { "es": "Contacto con soporte", "en": "Contact support", "pt": "Contato com suporte" }, "link": "faq.html" }
+    ],
+    "Contacto": [
+        { "nombre": { "es": "Soporte de diseño", "en": "Design support", "pt": "Suporte de design" }, "link": "contacto.html" },
+        { "nombre": { "es": "Preguntas frecuentes", "en": "Frequently asked questions", "pt": "Perguntas frequentes" }, "link": "contacto.html" },
+        { "nombre": { "es": "Redes sociales", "en": "Social networks", "pt": "Redes sociais" }, "link": "contacto.html" },
+        { "nombre": { "es": "Contacto directo", "en": "Direct contact", "pt": "Contato direto" }, "link": "contacto.html" }
+    ]
+}
+ 

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="promtitulo">Promociones</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/i18next@21.6.3/i18next.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="promociones.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.webp" alt="Logo" width="70" height="70" class="d-inline-block align-text-center">
+          </a>
+          
+          <div>
+            <a class="navbar-brand">Promociones</a>
+            <select id="language-selector" class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
+              <option class="text-black" value="es" selected>Español</option>
+              <option class="text-black" value="en">English</option>         
+            </select>
+          </div>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto" id="menu">
+                <a class="nav-link" href="#descuentos" data-i18n="promenu1">Descuentos</a>
+                <a class="nav-link" href="#ofertas" data-i18n="promenu2">Ofertas</a>
+                <a class="nav-link" href="#colaboraciones" data-i18n="promenu3">Colaboraciones</a>
+                <a class="nav-link" href="#sorteos" data-i18n="promenu4"> Sorteos</a>
+                <a class="btn btn-door" href="index.html"><i class="fas fa-door-open"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <script>
+       function loadTranslations(language) {
+         var xhr = new XMLHttpRequest();
+         xhr.open("GET", "internacional.xml", true);
+         xhr.onreadystatechange = function () {
+           if (xhr.readyState === 4 && xhr.status === 200) {
+             var parser = new DOMParser();
+             var xmlDoc = parser.parseFromString(xhr.responseText, "application/xml");
+   
+             var translations = {};
+             var keys = xmlDoc.getElementsByTagName("key");
+             for (var i = 0; i < keys.length; i++) {
+               var name = keys[i].getAttribute("name");
+               var value = keys[i].getElementsByTagName(language)[0].textContent;
+               translations[name] = value;
+             }
+   
+             i18next.init(
+               {
+                 lng: language,
+                 resources: {
+                   [language]: {
+                     translation: translations,
+                   },
+                 },
+               },
+               function (err, t) {
+                 document.querySelectorAll("[data-i18n]").forEach(function (element) {
+                   element.innerHTML = t(element.getAttribute("data-i18n"));
+                 });
+               }
+             );
+           }
+         };
+         xhr.send();
+       }
+   
+       // Cambiar idioma con el selector
+       document.getElementById("language-selector").addEventListener("change", function () {
+         loadTranslations(this.value);
+       });
+   
+       // Idioma predeterminado al cargar la página
+       window.onload = function () {
+         loadTranslations("es");
+       };
+     </script>
+    <!--Aqui termina el script de la internalizacion del contenido-->
+
+
+  <section class="bg-black">
+    <div class="carousel-inner py-5" style="min-height: 100vh;">
+        <div class="carousel-item active">
+            <img src="img/img4.jpeg" class="d-block w-100" alt="Menú saludable" style="height: 80vh; object-fit: cover; opacity: 0.7;">
+            <div class="carousel-caption d-flex justify-content-center align-items-center h-50 justify-content-center" style="background: rgba(83, 83, 83, 0.5);">
+                <h2 class="text-gradient fs-1 text-center animate__animated animate__bounceIn" data-i18n="prominicio">BIENVENIDO A LAS PROMOCIONES</h2>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Sección Diseñadores -->
+<section id="colaboracion" class="py-5 bg-light">
+    <div class="container">
+      <!-- Título Principal -->
+      <h2 class="text-4xl font-extrabold text-center mb-4">Diseñadores</h2>
+      <p class="text-lg text-center mb-5">Explora nuestra red de diseñadores, descubre camisetas populares o crea tu propio diseño personalizado.</p>
+  
+      <!-- Colaboraciones con Diseñadores -->
+      <div id="descuentos" class="mb-5">
+        <h3 class="text-2xl font-bold mb-3">Descuentos exclusivos</h3>
+        <section id="exclusive-discounts" class="exclusive-discounts">
+            <h2>Descuentos Exclusivos</h2>
+            
+            <div class="discount-card">
+              <div class="discount-info">
+                <h3>¡Solo para Ti!</h3>
+                <p>Disfruta de un <strong>30% de descuento</strong> en productos seleccionados.</p>
+                <p class="discount-description">¡Aprovecha antes de que se acabe!</p>
+                <div id="countdown" class="countdown"></div>
+              </div>
+              <div class="discount-image">
+                <img src="img/descuento.jpeg" alt="Descuento exclusivo">
+              </div>
+            </div>
+          
+            <a href="#" class="exclusive-btn ">Aprovechar Oferta</a>
+        </section>
+        <script>
+            // Temporizador de cuenta regresiva para el descuento
+            const countdownElement = document.getElementById('countdown');
+
+            // Fecha de fin para el descuento exclusivo (por ejemplo, 24 horas a partir de ahora)
+            const endDate = new Date();
+            endDate.setHours(endDate.getHours() + 24); // 24 horas desde ahora
+
+            function updateCountdown() {
+            const now = new Date();
+            const timeRemaining = endDate - now;
+
+            if (timeRemaining <= 0) {
+                countdownElement.innerHTML = "¡Descuento Finalizado!";
+                clearInterval(countdownInterval);
+            } else {
+                const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+                
+                countdownElement.innerHTML = `${hours}h ${minutes}m ${seconds}s`;
+            }
+            }
+
+            // Actualizar el contador cada segundo
+            const countdownInterval = setInterval(updateCountdown, 1000);
+
+            // Inicializa la cuenta regresiva al cargar la página
+            updateCountdown();
+        </script>
+      </div>
+  
+      <!-- Galería de Camisetas Populares -->
+      <section id="ofertas" class="volume-offers">
+        <h2>Ofertas por Volumen</h2>
+        
+        <div class="offer-card">
+          <div class="offer-info">
+            <h3>Compra más, ahorra más</h3>
+            <p>Obtén descuentos exclusivos cuando compres en grandes cantidades. ¡Cuanto más compras, más ahorras!</p>
+            <div class="volume-tiers">
+              <div class="tier">
+                <span class="tier-quantity">5 - 10</span>
+                <span class="tier-discount">10% de Descuento</span>
+              </div>
+              <div class="tier">
+                <span class="tier-quantity">11 - 20</span>
+                <span class="tier-discount">15% de Descuento</span>
+              </div>
+              <div class="tier">
+                <span class="tier-quantity">21 - 50</span>
+                <span class="tier-discount">20% de Descuento</span>
+              </div>
+              <div class="tier">
+                <span class="tier-quantity">51+</span>
+                <span class="tier-discount">25% de Descuento</span>
+              </div>
+            </div>
+            <a href="#" class="offer-link">Ver más detalles</a>
+          </div>
+          <div class="offer-image">
+            <img src="img/ofertas.jpeg" alt="Ofertas por volumen">
+          </div>
+        </div>
+      </section>
+      
+  
+      <!-- Diseños Recomendados -->
+      <section id="colaboraciones" class="special-collaborations">
+        <h2>Colaboraciones Especiales</h2>
+        
+        <div class="collaboration-card">
+          <div class="collaboration-info">
+            <h3>Explora Nuestras Colaboraciones Exclusivas</h3>
+            <p>Trabajamos con marcas innovadoras para traerte productos únicos. ¡Echa un vistazo a nuestras últimas colaboraciones!</p>
+            <div class="collaboration-gallery">
+              <img src="img/colab1.jpeg" alt="Colaboración 1">
+              <img src="img/colab2.jpeg" alt="Colaboración 2">
+              <img src="img/colab3.jpeg" alt="Colaboración 3">
+            </div>
+            <a href="#" class="collaboration-link">Ver Más Colaboraciones</a>
+          </div>
+          <div class="collaboration-image">
+            <img src="img/colab4.jpeg" alt="Producto de colaboración">
+          </div>
+        </div>
+      </section>
+
+      <!-- Crear tu Propio Diseño -->
+      
+      <section id="sorteos" class="t-shirt-contest">
+        <h2>Sorteos para Personalizar Camisetas</h2>
+        
+        <div class="contest-card">
+          <div class="contest-info">
+            <h3>Gana la oportunidad de diseñar tu camiseta</h3>
+            <p>Participa en nuestros sorteos para ganar una camiseta completamente personalizada con tu diseño único.</p>
+            <p class="contest-details">¡Inscríbete ahora y comienza a diseñar!</p>
+            <a href="#" class="contest-link">Participar en Sorteo</a>
+          </div>
+          <div class="contest-image">
+            <img src="img/sorteo.jpeg" alt="Camiseta personalizada">
+          </div>
+        </div>
+      </section>
+      
+  
+      
+    
+  </section>
+  
+    
+  
+  <footer class="bg-dark text-white py-3 mt-4">
+      <div class="container text-center">
+        <p data-i18n="footer">&copy; Derechos Reservados - Ian Erick Lenis Ugarte 2025</p>
+          <div class="social-icons mt-3">
+              <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+          </div>
+      </div>
+  </footer>
+  <style>
+    .text-gradient {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textAnimation 3s ease-in-out infinite;
+    }
+
+    @keyframes textAnimation {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html> 

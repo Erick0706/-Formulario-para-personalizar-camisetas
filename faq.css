@@ -1,0 +1,440 @@
+/* Estilos generales para la sección */
+.customization-guide {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .customization-guide h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .guide-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+  }
+  
+  .guide-info {
+    flex: 1;
+    padding-right: 30px;
+    text-align: left;
+  }
+  
+  .guide-info h3 {
+    font-size: 2rem;
+    color: #f39c12;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .guide-info p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .guide-steps {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .guide-steps li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .guide-steps li strong {
+    color: #f39c12;
+  }
+  
+  .guide-link {
+    font-size: 1.1rem;
+    color: #f39c12;
+    text-decoration: none;
+    padding: 12px 25px;
+    border: 2px solid #f39c12;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .guide-link:hover {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .guide-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .guide-image img {
+    max-width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .guide-image img:hover {
+    transform: scale(1.05);
+  }
+/* Estilos generales para la sección */
+.return-policy {
+    background-color: #fafafa;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .return-policy h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .policy-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+  }
+  
+  .policy-info {
+    flex: 1;
+    padding-right: 30px;
+    text-align: left;
+  }
+  
+  .policy-info h3 {
+    font-size: 2rem;
+    color: #f39c12;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .policy-info p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .policy-steps {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .policy-steps .step {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
+  }
+  
+  .policy-steps .step:hover {
+    background-color: #f0e0a3;
+  }
+  
+  .policy-steps .step h4 {
+    font-size: 1.3rem;
+    color: #f39c12;
+    margin-bottom: 10px;
+  }
+  
+  .policy-steps .step p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .policy-link {
+    font-size: 1.1rem;
+    color: #f39c12;
+    text-decoration: none;
+    padding: 12px 25px;
+    border: 2px solid #f39c12;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .policy-link:hover {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .policy-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .policy-image img {
+    max-width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .policy-image img:hover {
+    transform: scale(1.05);
+  }
+/* Estilos generales para la sección */
+.payment-methods {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .payment-methods h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .payment-methods-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+  }
+  
+  .payment-info {
+    flex: 1;
+    padding-right: 30px;
+    text-align: left;
+  }
+  
+  .payment-info h3 {
+    font-size: 2rem;
+    color: #f39c12;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .payment-info p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .payment-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  
+  .payment-option {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .payment-option img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .payment-option p {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .payment-option:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-link {
+    font-size: 1.1rem;
+    color: #f39c12;
+    text-decoration: none;
+    padding: 12px 25px;
+    border: 2px solid #f39c12;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .payment-link:hover {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .payment-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .payment-image img {
+    max-width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .payment-image img:hover {
+    transform: scale(1.05);
+  }
+/* Estilos generales para la sección */
+.contact-support {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .contact-support h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .support-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+  }
+  
+  .support-info {
+    flex: 1;
+    padding-right: 30px;
+    text-align: left;
+  }
+  
+  .support-info h3 {
+    font-size: 2rem;
+    color: #f39c12;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .support-info p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-option {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .contact-option h4 {
+    font-size: 1.4rem;
+    color: #f39c12;
+    margin-bottom: 10px;
+  }
+  
+  .contact-option p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .contact-option:hover {
+    background-color: #f0e0a3;
+    transform: scale(1.05);
+  }
+  
+  .contact-link {
+    font-size: 1.1rem;
+    color: #f39c12;
+    text-decoration: none;
+    padding: 12px 25px;
+    border: 2px solid #f39c12;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .contact-link:hover {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .support-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .support-image img {
+    max-width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .support-image img:hover {
+    transform: scale(1.05);
+  }
+        

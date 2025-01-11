@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="galtitulo">Galería</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/i18next@21.6.3/i18next.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="galeria.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.webp" alt="Logo" width="70" height="70" class="d-inline-block align-text-center">
+          </a>
+          
+          <div>
+            <a class="navbar-brand">Galería</a>
+            <select id="language-selector" class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
+              <option class="text-black" value="es" selected>Español</option>
+              <option class="text-black" value="en">English</option>         
+            </select>
+          </div>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto" id="menu">
+                <a class="nav-link" href="#muestra" data-i18n="galmenu1">Muestras</a>
+                <a class="nav-link" href="#galeriaUs" data-i18n="galmenu2">Galería</a>
+                <a class="nav-link" href="#evaluation" data-i18n="galmenu3">Evaluación</a>
+                <a class="nav-link" href="#comentarios" data-i18n="galmenu4"> Comentarios</a>
+                <a class="btn btn-door" href="index.html"><i class="fas fa-door-open"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <script>
+       function loadTranslations(language) {
+         var xhr = new XMLHttpRequest();
+         xhr.open("GET", "internacional.xml", true);
+         xhr.onreadystatechange = function () {
+           if (xhr.readyState === 4 && xhr.status === 200) {
+             var parser = new DOMParser();
+             var xmlDoc = parser.parseFromString(xhr.responseText, "application/xml");
+   
+             var translations = {};
+             var keys = xmlDoc.getElementsByTagName("key");
+             for (var i = 0; i < keys.length; i++) {
+               var name = keys[i].getAttribute("name");
+               var value = keys[i].getElementsByTagName(language)[0].textContent;
+               translations[name] = value;
+             }
+   
+             i18next.init(
+               {
+                 lng: language,
+                 resources: {
+                   [language]: {
+                     translation: translations,
+                   },
+                 },
+               },
+               function (err, t) {
+                 document.querySelectorAll("[data-i18n]").forEach(function (element) {
+                   element.innerHTML = t(element.getAttribute("data-i18n"));
+                 });
+               }
+             );
+           }
+         };
+         xhr.send();
+       }
+   
+       // Cambiar idioma con el selector
+       document.getElementById("language-selector").addEventListener("change", function () {
+         loadTranslations(this.value);
+       });
+   
+       // Idioma predeterminado al cargar la página
+       window.onload = function () {
+         loadTranslations("es");
+       };
+     </script>
+    <!--Aqui termina el script de la internalizacion del contenido-->
+
+
+  <section class="bg-black">
+    <div class="carousel-inner py-5" style="min-height: 100vh;">
+        <div class="carousel-item active">
+            <img src="img/img4.jpeg" class="d-block w-100" alt="Menú saludable" style="height: 80vh; object-fit: cover; opacity: 0.7;">
+            <div class="carousel-caption d-flex justify-content-center align-items-center h-50 justify-content-center" style="background: rgba(83, 83, 83, 0.5);">
+                <h2 class="text-gradient fs-1 text-center animate__animated animate__bounceIn" data-i18n="galinicio">BIENVENIDO A MI GALERIA</h2>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Sección de Muestras y Feedback -->
+<section id="feedback" class="py-5">
+    <div class="container">
+      <!-- Muestras de Camisetas Creadas -->
+      <div id="muestra" class="mb-5">
+        <h3 class="text-2xl font-bold mb-3">Muestras de Camisetas Creadas</h3>
+        <p class="mb-3">Echa un vistazo a algunos de los diseños únicos creados por nuestros clientes.</p>
+        <d class="row" id="muestras-camisetas">
+            <div class="col-md-4">
+                <img src="img/dis4.webp" alt="Camiseta 1" class="img-fluid rounded shadow mb-2">
+              </div>
+              <div class="col-md-4">
+                <img src="img/dis5.jpeg" alt="Camiseta 2" class="img-fluid rounded shadow mb-2">
+              </div>
+              <div class="col-md-4">
+                <img src="img/dis6.jpeg" alt="Camiseta 3" class="img-fluid rounded shadow mb-2">
+              </div>
+            </div>
+      </div>
+      
+  
+      <!-- Galería de Usuarios -->
+      <div id="galeriaUs" class="mb-5">        
+        <div class="row" id="galeria-usuarios">
+            <section id="user-gallery" class="user-gallery">
+                <h2 class="text-2xl font-bold mb-3">Galería de Usuarios</h2>
+                <p class="mb-3">Conoce a los usuarios que han compartido sus diseños.</p>
+                <div class="user-item">
+                  <img src="img/us1.jpeg" alt="Usuario 1">
+                  <h3>Juan Pérez</h3>
+                  <p>Desarrollador Web</p>
+                </div>
+              
+                <div class="user-item">
+                  <img src="img/us2.jpeg" alt="Usuario 2">
+                  <h3>Ana Gómez</h3>
+                  <p>Diseñadora Gráfica</p>
+                </div>
+              
+                <div class="user-item">
+                  <img src="img/us3.jpeg"alt="Usuario 3">
+                  <h3>Carlos Sánchez</h3>
+                  <p>Marketing Digital</p>
+                </div>
+              
+                <div class="user-item">
+                  <img src="img/us4.jpeg" alt="Usuario 4">
+                  <h3>Laura Martínez</h3>
+                  <p>Fotógrafa Profesional</p>
+                </div>
+              
+                <!-- Agregar más usuarios según sea necesario -->
+              </section>
+              
+        </div>
+      </div>
+  
+      <!-- Evaluación de Productos -->
+      <section id="evaluation" class="evaluation">
+        <h2>Evaluaciones de Clientes</h2>
+      
+        <div class="evaluation-item">
+          <div class="stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+          </div>
+          <p>"El servicio fue excelente. Muy atentos y profesionales. Definitivamente recomendaré."</p>
+          <p class="client-name">Carlos López</p>
+        </div>
+      
+        <div class="evaluation-item">
+          <div class="stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p>"Muy buena experiencia de compra. El producto llegó en perfectas condiciones y a tiempo."</p>
+          <p class="client-name">Ana Martínez</p>
+        </div>
+      
+        <div class="evaluation-item">
+          <div class="stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+            <span class="star">&#9734;</span>
+          </div>
+          <p>"Buen servicio, aunque se tardaron un poco más de lo esperado, pero todo salió bien."</p>
+          <p class="client-name">Luis Pérez</p>
+        </div>
+      </section>
+      
+  
+      <!-- Comentarios de Clientes -->
+      <div id="comentarios">
+        <ul class="list-group" id="comentarios-clientes">
+            <section id="testimonials" class="testimonials">
+                <h2>Comentarios de nuestros clientes</h2>
+                
+                <div class="testimonial-item">
+                  <p>"¡Excelente servicio! Muy profesionales y atentos. Estoy muy contento con mi compra."</p>
+                  <p class="client-name">Carlos Pérez</p>
+                  <p class="client-job">Cliente Satisfecho</p>
+                </div>
+              
+                <div class="testimonial-item">
+                  <p>"Una experiencia increíble, ¡sin duda volveré! Todo llegó a tiempo y en perfectas condiciones."</p>
+                  <p class="client-name">Ana Gómez</p>
+                  <p class="client-job">Diseñadora Gráfica</p>
+                </div>
+              
+                <div class="testimonial-item">
+                  <p>"Los recomiendo ampliamente. La atención al cliente fue excelente y resolvieron todas mis dudas."</p>
+                  <p class="client-name">Juan Martínez</p>
+                  <p class="client-job">Emprendedor</p>
+                </div>
+              </section>
+              
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-dark text-white py-3 mt-4">
+      <div class="container text-center">
+        <p data-i18n="footer">&copy; Derechos Reservados - Ian Erick Lenis Ugarte 2025</p>
+          <div class="social-icons mt-3">
+              <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+          </div>
+      </div>
+  </footer>
+  <style>
+    .text-gradient {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textAnimation 3s ease-in-out infinite;
+    }
+
+    @keyframes textAnimation {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html> 

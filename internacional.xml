@@ -1,0 +1,364 @@
+<traslations>
+<!-- ***************** TRADUCCION DEL INDEX ***************** -->
+  <key name="titulo">
+    <es>Personaliza tu Camiseta</es>
+    <en>Customize Your T-Shirt</en>
+    <pt>Personalize sua camiseta</pt>
+  </key>
+
+  <key name="beneficio1">
+    <es>¿Por qué usar nuestra plataforma?</es>
+    <en>Why use our platform?</en>
+    <pt>Por que usar nossa plataforma?</pt>
+  </key>
+
+  <key name="beneficio2">
+    <es>La imaginación no tiene limites, expande tu imaginación con nosotros.</es>
+    <en>Imagination has no limits, expand your imagination with us.</en>
+    <pt>A imaginação não tem limites, expanda sua imaginação conosco.</pt>
+  </key>
+
+  <key name="beneficio3">
+    <es>Sorteos y premios especiales</es>
+    <en>Sweepstakes and Special Prizes</en>
+    <pt>Sorteios e Prêmios Especiais</pt>
+  </key>
+  <key name="beneficio4">
+    <es>Por la compra de cualquier producto puede ser ganador de descuentos o productos.</es>
+    <en>For the purchase of any product you can be a winner of discounts or products.</en>
+    <pt>Para a compra de qualquer produto, você pode ser um vencedor de descontos ou produtos.</pt>
+  </key>
+  <key name="beneficio5">
+    <es>Fusiones con otras empresas.</es>
+    <en>Mergers with other companies.</en>
+    <pt>Fusões com outras empresas.</pt>
+  </key>
+
+  <key name="beneficio6">
+    <es>Para un mejor trato a nuestros clientes, nos pueden buscar en cualquiera de nuestras sucursales.</es>
+    <en>For a better treatment of our customers, they can look for us at any of our branches.</en>
+    <pt>Para um melhor tratamento dos nossos clientes, podem procurar-nos em qualquer uma das nossas agências.</pt>
+  </key>
+  <key name="beneficio7">
+    <es>Top de telas más pedidas</es>
+    <en>Top of most requested fabrics</en>
+    <pt>Top dos tecidos mais solicitados</pt>
+  </key>
+  <key name="beneficio8">
+    <es>Aquí tenemos los mejores materiales para tu gusto.</es>
+    <en>Here we have the best materials for your taste.</en>
+    <pt>Aqui temos os melhores materiais para o seu gosto.</pt>
+  </key>
+  <key name="footer">
+    <es> Derechos reservados: Ian Erick Lenis Ugarte 2025</es>
+    <en> All rights reserved: Ian Erick Lenis Ugarte 2025</en>
+    <pt> Direitos Autorais: Ian Erick Lenis Ugarte 2025</pt>
+  </key>
+  <!-- ***************** FIN DEL INDEX ***************** -->
+
+  <!-- ***************** TRADUCCION DEL INICIO ***************** -->
+  <key name="iniciotitulo">
+    <es>Inicio</es>
+    <en>Star</en>
+    <pt>Princípio</pt>
+  </key>
+  <key name="submenu1">
+    <es>Introducción al servicio</es>
+    <en>Service Introduction</en>
+    <pt>Introdução ao serviço</pt>
+  </key>
+  <key name="submenu2">
+    <es>Beneficios</es>
+    <en>Proceeds</en>
+    <pt>Produto</pt>
+  </key>
+  <key name="submenu3">
+    <es>Instrucciones</es>
+    <en>Instructions</en>
+    <pt>Instruções</pt>
+  </key>
+  <key name="submenu4">
+    <es>Preguntas Frecuentes</es>
+    <en>Frequently Asked Questions</en>
+    <pt>Perguntas frequentes</pt>
+  </key>
+  <key name="iniinicio">
+    <es>BIENVENIDO AL MENU INICIO</es>
+    <en>WELCOME TO THE HOME MENU</en>
+    <pt>BEM-VINDO AO MENU INICIAL</pt>
+  </key>
+  <key name="iniInt1">
+    <es>Introducción al servicio</es>
+    <en>Service Introduction</en>
+    <pt>Introdução ao serviço</pt>
+  </key>
+  <key name="iniInt2">
+    <es>En un mundo donde la originalidad y la creatividad son altamente valoradas, el poder expresar tu estilo único a través de la ropa se ha convertido en una necesidad. Nuestro sistema web de personalización de camisetas está diseñado para ofrecer una experiencia innovadora y accesible, permitiendo a los usuarios dar vida a sus ideas y plasmarlas en una prenda que refleje su identidad.
+      Este servicio es ideal tanto para individuos como para empresas que buscan destacar con diseños personalizados. Con una interfaz intuitiva y herramientas avanzadas, nuestro sistema te guía paso a paso para crear camisetas que se ajusten perfectamente a tus necesidades, ya sea para eventos, regalos especiales, campañas publicitarias o simplemente para añadir un toque personal a tu guardarropa.
+      l resultado final. ¡Haz que tus camisetas hablen por ti y conviértelas en una declaración de estilo!</es>
+    <en>In a world where originality and creativity are highly valued, being able to express your unique style through clothing has become a necessity. Our web T-shirt personalisation system is designed to offer an innovative and accessible experience, allowing users to bring their ideas to life and translate them into a garment that reflects their identity.
+      This service is ideal for both individuals and businesses looking to stand out with custom designs. With an intuitive interface and advanced tools, our system guides you step-by-step to create t-shirts that perfectly fit your needs, whether for events, special gifts, advertising campaigns or simply to add a personal touch to your wardrobe.
+      The final result. Make your t-shirts speak for you and turn them into a style statement!</en>
+    <pt>Em um mundo onde a originalidade e a criatividade são altamente valorizadas, ser capaz de expressar seu estilo único através da roupa tornou-se uma necessidade. Nosso sistema de personalização de camisetas na web foi projetado para oferecer uma experiência inovadora e acessível, permitindo que os usuários dêem vida às suas ideias e as traduzam em uma peça que reflita sua identidade.
+      Este serviço é ideal para indivíduos e empresas que procuram se destacar com designs personalizados. Com uma interface intuitiva e ferramentas avançadas, nosso sistema orienta você passo a passo para criar camisetas que se encaixam perfeitamente nas suas necessidades, seja para eventos, presentes especiais, campanhas publicitárias ou simplesmente para dar um toque pessoal ao seu guarda-roupa.
+      O resultado final. Faça suas camisetas falarem por você e transforme-as em uma declaração de estilo!</pt>
+  </key>
+
+  <key name="inibeneficios1">
+    <es>Beneficios de personalizar tu camiseta</es>
+    <en>Benefits of customizing your t-shirt</en>
+    <pt>Benefícios de personalizar sua camiseta</pt>
+  </key>
+  <key name="inibeneficios2">
+    <es>Personalizar una camiseta te permite expresar tu estilo único y mostrar tu personalidad. Puedes elegir diseños, colores y mensajes que reflejen quién eres.</es>
+    <en>Customizing a t-shirt allows you to express your unique style and show off your personality. You can choose designs, colors, and messaging that reflect who you are.</en>
+    <pt>Personalizar uma camiseta permite que você expresse seu estilo único e mostre sua personalidade. Você pode escolher designs, cores e mensagens que reflitam quem você é.</pt>
+  </key>
+  <key name="inibeneficios3">
+    <es>Las camisetas personalizadas son excelentes regalos para amigos y familiares. Añadir un toque personal, como un mensaje especial o una imagen significativa, hace que el regalo sea inolvidable.</es>
+    <en>Personalized t-shirts are great gifts for friends and family. Adding a personal touch, like a special message or a meaningful image, makes the gift unforgettable.</en>
+    <pt>Camisetas personalizadas são presentes incríveis para amigos e familiares. Adicionar um toque pessoal, como uma mensagem especial ou uma imagem significativa, torna o presente inesquecível.</pt>
+  </key>
+  <key name="inibeneficios4">
+    <es>No hay límites para tu creatividad. Puedes elegir imágenes, frases o patrones específicos que sean importantes para ti o para el mensaje que quieras transmitir.</es>
+    <en>There are no limits to your creativity. You can choose specific images, phrases, or patterns that are important to you or the message you want to convey.</en>
+    <pt>Não há limites para sua criatividade. Você pode escolher imagens, frases ou padrões específicos que sejam importantes para você ou para a mensagem que deseja transmitir.</pt>
+  </key>
+  <key name="inibeneficios5">
+    <es>Puedes seleccionar materiales de alta calidad que no solo sean cómodos, sino que también aseguren que el diseño personalizado dure por mucho tiempo.</es>
+    <en>You can select high-quality materials that are not only comfortable but also ensure that the personalized design lasts a long time.</en>
+    <pt>Você pode selecionar materiais de alta qualidade que não só sejam confortáveis, mas também garantam que o design personalizado dure por muito tempo.</pt>
+  </key>
+  <key name="inibeneficios6">
+    <es>A diferencia de las camisetas genéricas, puedes seleccionar un corte y ajuste que te quede perfectamente, combinando estilo y comodidad.</es>
+    <en>Unlike generic t-shirts, you can choose a cut and fit that suits you perfectly, combining style and comfort.</en>
+    <pt>Ao contrário das camisetas genéricas, você pode escolher um corte e ajuste que lhe caia perfeitamente, combinando estilo e conforto.</pt>
+  </key>
+  <key name="iniIns1">
+    <es>Instrucciones fáciles de seguir</es>
+    <en>Easy-to-follow instructions</en>
+  </key>
+  <key name="iniIns2">
+    <es>Selecciona el tipo de camiseta que deseas: manga corta, larga, polo o sudadera.
+      Escoge la talla, color y estilo que más te guste.</es>
+    <en>Select the type of t-shirt you want: short sleeve, long sleeve, polo shirt or sweatshirt.
+      Choose the size, color and style that you like the most.</en>
+  </key>
+  <key name="inipregunta1">
+    <es>Preguntas Frecuentes</es>
+    <en>Frequently Asked Questions</en>
+  </key>
+  <key name="inipregunta2">
+    <es>1. ¿Qué tipo de camisetas puedo personalizar?</es>
+    <en>1. What kind of t-shirts can I customize?</en>
+  </key>
+  <key name="inipregunta3">
+    <es>Puedes personalizar camisetas de manga corta, manga larga, polos, sudaderas y camisetas unisex. También ofrecemos opciones para hombre, mujer y niños en diferentes tallas y colores.</es>
+    <en>You can customize short-sleeved t-shirts, long-sleeved t-shirts, polo shirts, sweatshirts, and unisex t-shirts. We also offer options for men, women and children in different sizes and colors.</en>
+  </key>
+  <key name="inipregunta4">
+    <es>2. ¿Cuánto tiempo tardará en llegar mi pedido?</es>
+    <en>2. How long will it take for my order to arrive?</en>
+  </key>
+  <key name="inipregunta5">
+    <es>El tiempo de entrega depende de tu ubicación y la cantidad de camisetas solicitadas. Por lo general, los pedidos se entregan en 5-7 días hábiles.</es>
+    <en>Delivery time depends on your location and the number of t-shirts ordered. Orders are usually delivered in 5-7 business days.</en>
+  </key>
+  <key name="inipregunta6">
+    <es>3. ¿Hay descuentos para pedidos grandes?</es>
+    <en>3. Are there discounts for large orders?</en>
+  </key>
+  <key name="inipregunta7">
+    <es>Sí, ofrecemos descuentos para pedidos al por mayor. Consulta nuestra tabla de precios por cantidad o contáctanos directamente para más información.</es>
+    <en>Yes, we offer discounts for bulk orders. Check out our quantity pricing table or contact us directly for more information.</en>
+  </key>
+  <key name="inifooter">
+    <es>2025. Derechos reservados A. Guillermo Llavera A.</es>
+    <en>2025 All rights reserved: A. Guillermo Llavera A.</en>
+  </key>
+    <!-- ***************** FIN DEL INICIO ***************** -->
+
+    <!-- ***************** TRADUCCION SUB-MENU PERSONALIZACION ***************** -->
+  <key name="persotitulo">
+  <es>Personalización</es>
+  <en>Personalization</en>
+  </key>
+  <key name="persubmenu1">
+  <es>Selección de estilo</es>
+  <en>Style selection</en>
+  </key>
+  <key name="persubmenu2">
+  <es>Subir diseño</es>
+  <en>Upload design</en>
+  </key>
+  <key name="persubmenu3">
+  <es>Personalización</es>
+  <en>Personalization</en>
+  </key>
+  <key name="persubmenu4">
+  <es>Vista previa</es>
+  <en>Preview</en>
+  </key>
+  
+  <!-- ***************** FIN DE LA PERSONALIZACION ***************** -->
+
+<!-- ***************** TRADUCCION SUB-MENU TIENDA ***************** -->
+  <key name="tiendatitulo">
+  <es>Tienda</es>
+  <en>Shop</en>
+  </key>
+  <key name="tiendasub1">
+  <es>Ofertas de personalización</es>
+  <en>Customization offers</en>
+  </key>
+  <key name="tiendasub2">
+  <es>Modelos exclusivos</es>
+  <en>Exclusive models</en>
+  </key>
+  <key name="tiendasub3">
+  <es>Categorías de diseños</es>
+  <en>Design Categories</en>
+  </key>
+  <key name="tiendasub4">
+  <es>Compra segura</es>
+  <en>Secure Shopping</en>
+  </key>
+  <key name="tiendainicio">
+  <es>BIENVENIDO A NUESTRA TIENDA</es>
+  <en>WELCOME TO OUR STORE</en>
+  </key>
+
+  
+  <!-- ***************** FIN DE LA TIENDA ***************** -->
+
+<!-- ***************** TRADUCCION SUB-MENU DISEÑADORES ***************** -->
+  <key name="distitulo">
+  <es>Diseñadores</es>
+  <en>Designers</en>
+  </key>
+  <key name="dismenu1">
+  <es>Colaboraciones con diseñadores</es>
+  <en>Collaborations with designers</en>
+  </key>
+  <key name="dismenu2">
+  <es>Galería</es>
+  <en>Gallery</en>
+  </key>
+  <key name="dismenu3">
+  <es>Diseños</es>
+  <en>Designs</en>
+  </key>
+  <key name="dismenu4">
+  <es>Crea tu propio diseño</es>
+  <en>Create your own design</en>
+  </key>
+  <key name="disinicio">
+  <es>BIENVENIDO AL MENU DE DISEÑADORES</es>
+  <en>WELCOME TO THE DESIGNERS MENU</en>
+  </key>
+  <!-- ***************** FIN DEL DISEÑADORES ***************** -->
+
+  <!-- ***************** TRADUCCION SUB-MENU GALERIA ***************** -->
+  <key name="galtitulo">
+  <es>Galería</es>
+  <en>Gallery</en>
+  </key>
+  <key name="galmenu1">
+  <es>Muestras</es>
+  <en>Samples</en>
+  </key>
+  <key name="galmenu2">
+  <es>Galería</es>
+  <en>Gallery</en>
+  </key>
+  <key name="galmenu3">
+  <es>Evaluación</es>
+  <en>Evaluation</en>
+  </key>
+  <key name="galmenu4">
+  <es>Comentarios</es>
+  <en>Feedback</en>
+  </key>
+  <key name="galinicio">
+  <es>BIENVENIDO A MI GALERIA</es>
+  <en>WELCOME TO MY GALLERY</en>
+  </key>
+  <!-- ***************** FIN DEL GALERIA ***************** -->
+
+  <!-- ***************** TRADUCCION SUB-MENU PROMOCIONES  ***************** -->
+  <key name="promtitulo">
+  <es>Promociones</es>
+  <en>Promotions</en>
+  </key>
+  <key name="promenu1">
+  <es>Descuentos</es>
+  <en>Discounts</en>
+  </key>
+  <key name="promenu2">
+  <es>Ofertas</es>
+  <en>Offers</en>
+  </key>
+  <key name="promenu3">
+  <es>Colaboraciones</es>
+  <en>Collaborations</en>
+  </key>
+  <key name="promenu4">
+  <es>Sorteos</es>
+  <en>Draws</en>
+  </key>
+  <key name="prominicio">
+  <es>BIENVENIDO A LAS PROMOCIONES</es>
+  <en>WELCOME TO PROMOTIONS</en>
+  </key>
+  <!-- ***************** FIN DE LAS PROMOCIONES ***************** -->
+
+<!-- ***************** TRADUCCION SUB-MENU FAQ ***************** -->
+  <key name="faqtitulo">
+  <es>Preguntas Frecuentes</es>
+  <en>FAQ</en>
+  </key>
+  <key name="faqmenu1">
+  <es> Cómo personalizar correctamente </es>
+  <en>How to customize correctly</en>
+  </key>
+  <key name="faqmenu2">
+  <es>Políticas de devolución</es>
+  <en>Return Policies</en>
+  </key>
+  <key name="faqmenu3">
+  <es>Métodos de pago</es>
+  <en>Payment methods</en>
+  </key>
+  <key name="faqmenu4">
+  <es>Contacto con soporte</es>
+  <en>Contact Support</en>
+  </key>
+  <key name="faqinicio">
+  <es>Preguntas Frecuentes</es>
+  <en>FAQ</en>
+  </key>
+  <!-- ***************** FIN DEL FAQ ***************** -->
+
+  <!-- ***************** TRADUCCION SUB-MENU CONTACTO ***************** -->
+  <key name="contitutlo">
+  <es>Contacto</es>
+  <en>Contact</en>
+  </key>
+  <key name="contsubmenu1">
+  <es>Soporte de Diseño</es>
+  <en>Design Support</en>
+  </key>
+  <key name="contsubmenu2">
+  <es>Preguntas Frecuentes</es>
+  <en>Frequently asked questions</en>
+  </key>
+  <key name="contsubmenu3">
+  <es>Redes Sociales</es>
+  <en>Social Media</en>
+  </key>
+  <key name="contsubmenu4">
+  <es>Contacto Directo</es>
+  <en>Direct Contact</en>
+  </key>
+  <!-- ***************** FIN DEL CONTACTO ***************** -->
+</traslations>

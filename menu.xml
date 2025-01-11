@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item>
+        <nombre>
+            <es>Inicio</es>
+            <en>Home</en>
+            <pt>Princípio</pt>
+        </nombre>
+        <link>index.html</link>
+    </item>
+
+    <item>
+        <nombre>
+            <es>Personalización</es>
+            <en>Customization</en>
+            <pt>Personalização</pt>
+        </nombre>
+        <link>personalizacion.html</link>        
+    </item>
+
+    <item>
+        <nombre>
+            <es>Tienda</es>
+            <en>Shop</en>
+            <pt>Loja</pt>
+        </nombre>
+        <link>tienda.html</link>
+    </item>
+
+    <item>
+        <nombre>
+            <es>Diseñadores</es>
+            <en>Designers</en>
+            <pt>Designers</pt>
+        </nombre>
+        <link>diseñadores.html</link>
+    </item>
+
+    <item>
+        <nombre>
+            <es>Galeria</es>
+            <en>Gallery</en>
+            <pt>Galeria</pt>
+        </nombre>
+        <link>galeria.html</link>
+    </item>
+    <item>
+        <nombre>
+            <es>Promociones</es>
+            <en>Promotions</en>
+            <pt>Promoções</pt>
+        </nombre>
+        <link>extras.html</link>
+    </item>
+
+    <item>
+        <nombre>
+            <es>Preguntas Frecuentes</es>
+            <en>FAQ</en>
+            <pt>Perguntas frequentes</pt>
+        </nombre>
+        <link>faq.html</link>
+    </item>
+
+    <item>
+        <nombre>
+            <es>Contacto</es>
+            <en>Contact</en>
+            <pt>Contato</pt>
+        </nombre>
+        <link>contacto.html</link>
+    </item>
+</menu>

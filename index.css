@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 8px;
+  }
+ 
+  #carouselExample .carousel-item {
+    height: auto !important; 
+  }
+  #carouselExample .carousel-item img {
+    border-radius: 15px; 
+    filter: brightness(0.9); 
+    transition: transform 0.5s ease; 
+    width: 100%;
+    height: auto; 
+    object-fit: contain; 
+  }
+  
+  #carouselExample .carousel-item img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+  }
+  
+  
+  #carouselExample {
+    margin-top: 20px;
+  }
+  
+    /* Estilo personalizado para que los submenús se desplieguen hacia abajo */
+  .dropdown-menu {
+  display: none; /* Oculta los submenús inicialmente */
+  position: absolute;
+  top: 100%; /* Despliega justo debajo del menú principal */
+  left: 0;
+  z-index: 1000;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+  display: block; /* Muestra los submenús al pasar el mouse */
+  }
+  
+  .dropdown-menu .dropdown-item {
+  white-space: nowrap;
+  }
+  
+  /*---------------------------*/
+  .relative {
+    position: relative;
+  }
+
+  
