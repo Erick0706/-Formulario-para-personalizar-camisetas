@@ -1,0 +1,47 @@
+Inicio
+├── Introducción al servicio
+├── Beneficios de personalizar tu camiseta
+├── Instrucciones fáciles de seguir
+└── Preguntas frecuentes
+
+Personalización
+├── Selección de estilo de camiseta
+├── Subir diseño o elegir plantillas
+├── Personalización de colores
+└── Vista previa antes de compra
+
+Tienda
+├── Ofertas de personalización
+├── Modelos exclusivos
+├── Categorías de diseños
+└── Compra segura
+
+Diseñadores
+├── Colaboraciones con diseñadores
+├── Galería de camisetas populares
+├── Diseños recomendados
+└── Crear tu propio diseño
+
+Galería
+├── Muestras de camisetas creadas
+├── Galería de usuarios
+├── Evaluación de productos
+└── Comentarios de clientes
+
+Promociones
+├── Descuentos exclusivos
+├── Ofertas por volumen
+├── Colaboraciones especiales
+└── Sorteos para personalizar camisetas
+
+FAQ
+├── Cómo personalizar correctamente
+├── Políticas de devolución
+├── Métodos de pago
+└── Contacto con soporte
+
+Contacto
+├── Soporte de diseño
+├── Preguntas frecuentes
+├── Redes sociales
+└── Contacto directo
